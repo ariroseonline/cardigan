@@ -1,1 +1,9 @@
-Hello World!
+<ul>fdsafd
+	{{#each}}
+		<li>
+			Name: {{name}} </br>
+			Description: {{body}} </br>
+			Image: <img {{bind-attr src="image"}} />
+		</li>
+	{{/each}}
+</ul>
