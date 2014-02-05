@@ -30,4 +30,5 @@ Cardigan::Application.configure do
   
   config.ember.variant = :development
   config.handlebars.templates_root = 'ember/templates'
+  config.ember.ember_path = 'ember'
 end

@@ -1,9 +1,22 @@
-<ul>fdsafd
-	{{#each}}
-		<li>
-			Name: {{name}} </br>
-			Description: {{body}} </br>
-			Image: <img {{bind-attr src="image"}} />
-		</li>
-	{{/each}}
-</ul>
+	<div class="row">
+		<ul>
+			{{#each}}
+				<li class="col-md-4">
+
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h3 class="panel-title">{{id}}</h3>
+					  </div>
+					  <div class="panel-body">
+					  	Name: {{name}} </br>
+					  	Description: {{body}} </br>
+					  	Image: <img {{bind-attr src="image"}} />
+					  </div>
+					</div>
+					
+				</li>
+			{{/each}}
+		</ul>
+
+
+	</div>
