@@ -12,6 +12,13 @@ gem 'bootstrap-sass', '~> 3.0.3.0'
 
 gem 'devise'
 
+gem 'simple_form'
+gem 'activerecord-tableless'
+gem 'google_drive'
+gem 'figaro' #for environmental variables
+gem 'high_voltage' #for static pages
+gem 'gibbon' #mailchimp api
+
 
 #Following master for Rails 4 support
 gem 'activeadmin', github: 'gregbell/active_admin'
@@ -48,6 +55,7 @@ end
 group :development do 
 	gem 'sqlite3'
 	gem 'jazz_hands'
+	gem 'better_errors'
 
 end
 
